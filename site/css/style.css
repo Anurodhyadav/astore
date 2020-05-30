@@ -1,0 +1,397 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+    
+  }
+  *{
+      box-sizing: border-box;
+  }
+  
+.mylogo{
+   margin-left: -10px;
+   margin-top: -23px;
+   
+}
+.my{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+#menstyle{
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+  
+}
+#myspan{
+    margin-left: 2px;
+    font-family: 'Sacramento', cursive;
+   color:black;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px #000000;
+    
+}
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #phone div { /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+  
+
+.container-fluid{
+    padding: 0;
+}
+button.navbar-toggler,.navbar-toggler-icon{
+    border: 1px solid  #61122f;
+   
+}
+#navbarNavAltMarkup a{
+    font-size: 1.2em;
+
+
+}
+#navbarNavAltMarkup a span{
+    font-size: 1em;
+    margin-right: 5px;
+}
+.container-fluid .jumbotron{
+     
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+    padding: 0;
+}
+#menu-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid  #3f0c1f;
+  overflow: hidden; 
+
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+
+}
+#menu-tile{
+  background: url(../images/fashion-men.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#specials-tile{
+  background: url(../images/fashion-women.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#menu-tile span,#specials-tile span,#map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: .8;
+  background-color: #000;
+
+}
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color:#222;
+  border-top: 0;
+
+ 
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+
+}
+k{
+  color: #557c3e;
+}
+#hours > span, #address >span ,#testimonials >span{
+  font-size: 1.3em;
+
+}
+#testimonials p{
+  color: #557c3e;
+  font-size: 0.8em;
+  line-height: 1.8em;
+  font-style: italic;
+}
+
+
+@media(min-width:1200px){
+  .container-fluid .jumbotron{
+    background-position: center;
+    height: 85vh;
+    object-fit: cover;
+  }
+  #slider{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  #slider figure img{
+    height: 85vh;
+
+  }
+  #home-tiles{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+ 
+  
+}
+/*End of the index.html styling */
+/*Below style apart from media queries  is implemented for menu-categories.html */
+.category-tile{
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 15px;
+
+}
+
+.category-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000;
+  color:#fff;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#main-categories-title + div{
+  margin-bottom: 50px;
+}
+/*End of the menu-categories.html styling */
+/* start for single-category.html */
+.menu-item-tile{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.menu-item-tile hr{
+  width: 80%;
+}
+.menu-item-tile .menu-item-price{
+  font-size: 1.1em;
+  text-align: right;
+  margin-right: -15px;
+
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo{
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  max-width: 250px;
+}
+.menu-item-photo div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+  border-radius: 50%;
+
+}
+.menu-item-description{
+  padding-right: 30px;
+
+}
+h3.menu-item-title{
+  margin: 0 0 10px;
+  color: #557c3e;
+}
+.menu-item-details{
+  font-size: 0.9em;
+  font-style: italic;
+}
+#menshirt{
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+
+}
+.mycart{
+ border: 1px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  height: 150px;
+  text-align: center
+  
+}
+.brief{
+  position: relative;
+ 
+
+}
+.net{
+  padding-top: 20px;
+
+}
+
+#continue{
+  margin-top: 5px;
+}
+#continued{
+  position: absolute;
+  top:50px;
+}
+#item2{
+  position: absolute;
+  top:50px;
+
+}
+#total{
+  position: absolute;
+  top:50px;
+
+}
+.netvalue{
+  margin-top: 10px;
+}
+@media(max-width:768px){
+    #myspan{
+    font-size: 5vw;
+    }
+    .netvalue{
+      font-size: 0.8em;
+    }
+    #econimages{
+      width: 100%;
+    }
+    #etq{
+      width: 100%;
+    }
+    .strongnet{
+      font-size: 0.8em;
+    }
+    #continued{
+      position: absolute;
+      top:90px;
+      left:-80px;
+    }
+    
+    .mylogo{
+       height: 60px;
+       width: 60px;
+    }
+    .panel-footer section{
+      text-align: center;
+
+    }
+    .container-fluid .jumbotron{
+          
+      height: 40vh;          
+      
+    }
+    #slider figure img{
+      height: 40vh;
+  
+    }
+    .panel-footer section hr{
+      width: 50%;
+    }
+    .panel-footer{
+      margin-top: -15px;
+    }
+    #menu-tile, #specials-tile, #map-tile{
+      margin-bottom: 0px;
+    }
+    .menu-item-photo{
+      
+      margin-right: auto;
+    }
+    .menu-item-description{
+      text-align: center;
+    }
+    .menu-item-tile .menu-item-price{
+      margin-right: 5px;
+    }
+    
+    }
+@media(min-width:768px) and (max-width:991px){
+    .mylogo{
+        height: 70px;
+        width: 70px;
+     }
+     .navbar-brand{
+         position: absolute;
+         top: 10px;
+         left: 10px;
+     }
+     #myspan{
+        font-size: 5vw;
+        }
+      .container-fluid .jumbotron{
+          height: 70vh;           
+        }
+        #slider figure img{
+          height: 70vh;
+      
+        }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mylogo{
+        height: 70px;
+        width: 70px;
+     }
+     #myspan{
+        font-size: 5vw;
+        }
+        .container-fluid .jumbotron{
+          height: 70vh;          
+        }
+        #slider figure img{
+          height: 70vh;
+      
+        }
+
+}
+
